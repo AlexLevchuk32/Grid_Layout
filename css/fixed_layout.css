@@ -1,0 +1,26 @@
+.container {
+   width: 900px;
+   margin: 24px auto;
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 24px;
+}
+
+.header__menu {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+.menu__item {
+   margin-left: 20px;
+   font-size: 25px;
+   text-decoration: none;
+}
+
+.card__image {
+   max-width: 284px;
+   min-height: 191px;
+   background-color: blue;
+}
